@@ -1,4 +1,5 @@
-# hello-world
-This is a repo for practicing github
+# About my first project in Github
+Something 
 
-My name is Owen Duffy and I am super cool.
+purpose
+description
