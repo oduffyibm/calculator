@@ -2,11 +2,11 @@
 import streamlit as st
 
 def main():
-  st.title("Gen-Z Calculator")
+  #st.title("Gen-Z Calculator")
   
-  n1 = st.number_input('First number here')
+  #n1 = st.number_input('First number here')
   
-  n2 = st.text_input('Second number here')
+  #n2 = st.text_input('Second number here')
   
   op = st.selectbox("Operator", ['multiply','add','subtract','divide'],on_change=calculate(n1,n2,op))
 
