@@ -4,9 +4,9 @@ import streamlit as st
 def main():
   st.title("Gen-Z Calculator")
   
-  n1 = st.number_input('First number here')
+  n1 = st.number_input('First number here', value = 0)
   
-  n2 = st.text_input('Second number here')
+  n2 = st.text_input('Second number here', value = 0)
   
   op = st.selectbox("Operator", ['multiply','add','subtract','divide'], index = 'multiply')
 
