@@ -25,5 +25,4 @@ def calculate(n1,n2,op):
 
     st.write('Your answer is: ', ans)
 
-if __name__ == __main__:
-    main()
+main()
