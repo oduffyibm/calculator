@@ -2,15 +2,15 @@
 import streamlit as st
 
 #def main():
-    st.title("Gen-Z Calculator")
+st.title("Gen-Z Calculator")
 
-    n1 = st.text_input('', 'Enter first number here')
-    n1 = float(n1)
+n1 = st.text_input('', 'Enter first number here')
+n1 = float(n1)
 
-    n2 = st.text_input('Second number')
-    n2 = float(n2)
+n2 = st.text_input('Second number')
+n2 = float(n2)
 
-    op = st.selectbox("Operator", ['multiply','add','subtract','divide'],on_change=calculate(n1,n2,op))
+op = st.selectbox("Operator", ['multiply','add','subtract','divide'],on_change=calculate(n1,n2,op))
 
 
 #def calculate(n1,n2,op):
