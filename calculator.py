@@ -8,9 +8,9 @@ def main():
   
   n2 = st.text_input('Second number here', value = 0)
   
-  op = st.text_input('operator', on_change = calculate(int(n1),int(n2),op))
+  op = st.selectbox(['Multiply','Divide','Add','Subtract'])
   
-  calculate(int(n1),int(n2),op)
+  st.button('Calculate', on_click = calculate(int(n1),int(n2),op)
 
 
 def calculate(n1,n2,op):
