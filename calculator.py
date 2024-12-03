@@ -10,7 +10,7 @@ def main():
   
   op = 'multiply'
   
-  calculate(n1,n2,op)
+  calculate(int(n1),int(n2),op)
 
 
 def calculate(n1,n2,op):
