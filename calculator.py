@@ -13,16 +13,16 @@ import streamlit as st
     op = st.selectbox("Operator", ['multiply','add','subtract','divide'],on_change=calculate(n1,n2,op))
 
 
-def calculate(n1,n2,op):
-    if op is 'multiply':
-        ans = n1 * n2
-    elif op is 'divide':
-        ans = n1/n2
-    elif op is 'add':
-        ans = n1+n2
-    else:
-        ans = n1-n2
+#def calculate(n1,n2,op):
+#    if op is 'multiply':
+#        ans = n1 * n2
+#    elif op is 'divide':
+##        ans = n1/n2
+#    elif op is 'add':
+#        ans = n1+n2
+#    else:
+#        ans = n1-n2
 
-    st.write('Your answer is: ', ans)
+#    st.write('Your answer is: ', ans)
 
 #main()
