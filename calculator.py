@@ -8,7 +8,7 @@ def main():
   
   #n2 = st.text_input('Second number here')
   
-  op = st.selectbox("Operator", ['multiply','add','subtract','divide'],on_change=calculate(n1,n2,op))
+  op = st.selectbox("Operator", ['multiply','add','subtract','divide'])
 
 '''
 def calculate(n1,n2,op):
