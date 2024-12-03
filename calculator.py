@@ -8,7 +8,7 @@ def main():
   
   n2 = st.text_input('Second number here', value = 0)
   
-  op = 'multiply'
+  op = st.text_input('operator')
   
   calculate(int(n1),int(n2),op)
 
@@ -23,6 +23,6 @@ def calculate(n1,n2,op):
     else:
         ans = n1-n2
 
-    st.write('Your answer is: ', ans)
+    st.write('Your answer is: ', str(ans))
 
 main()
