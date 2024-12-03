@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Gen-Z Calculator")
 
-n1 = st.text_input('', value: str = 'Enter fisrt number here')
+n1 = st.text_input('', 'Enter first number here')
 
 n2 = st.text_input('Second number')
 
