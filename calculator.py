@@ -1,3 +1,4 @@
+import __main__
 import streamlit as st
 
 def main():
@@ -9,10 +10,10 @@ def main():
     n2 = st.text_input('Second number')
     n2 = float(n2)
 
-    op = st.selectbox("Operator", ['multiply','add','subtract','divide'],on_change=calculate())
+    op = st.selectbox("Operator", ['multiply','add','subtract','divide'],on_change=calculate(n1,n2,op))
 
 
-def calculate():
+def calculate(n1,n2,op):
     if op is 'multiply':
         ans = n1 * n2
     elif op is 'divide':
