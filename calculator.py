@@ -1,7 +1,7 @@
-import __main__
+
 import streamlit as st
 
-def main():
+#def main():
     st.title("Gen-Z Calculator")
 
     n1 = st.text_input('', 'Enter first number here')
@@ -25,4 +25,4 @@ def calculate(n1,n2,op):
 
     st.write('Your answer is: ', ans)
 
-main()
+#main()
