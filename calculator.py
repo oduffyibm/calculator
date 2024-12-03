@@ -10,7 +10,7 @@ def main():
   
   op = st.selectbox(['Multiply','Divide','Add','Subtract'])
   
-  st.button('Calculate', on_click = calculate(int(n1),int(n2),op)
+  st.button('Calculate', on_click = calculate(int(n1),int(n2),op))
 
 
 def calculate(n1,n2,op):
