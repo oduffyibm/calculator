@@ -8,7 +8,7 @@ def main():
   
   n2 = st.text_input('Second number here', value = 0)
   
-  op = st.text_input('operator')
+  op = st.text_input('operator', on_change = calculate(int(n1),int(n2),op))
   
   calculate(int(n1),int(n2),op)
 
