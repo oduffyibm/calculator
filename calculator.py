@@ -7,10 +7,10 @@ def main():
   n1 = st.number_input('First number here')
   
   n2 = st.text_input('Second number here')
+  
+  op = st.selectbox("Operator", ['multiply','add','subtract','divide'], index = 'multiply')
 
-  with:
-    op = st.selectbox("Operator", ['multiply','add','subtract','divide'])
-    calculate(n1,n2,op)
+  calculate(n1,n2,op)
 
 
 def calculate(n1,n2,op):
