@@ -1,5 +1,6 @@
 import random as r
 import streamlit as st
+import os
 
 def main():
   st.title("Gen-Z Calculator")
