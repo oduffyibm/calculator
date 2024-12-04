@@ -22,7 +22,7 @@ def calculate(n1,n2,op):
   else:
       ans = n1-n2
 
-      st.write('Your answer is: ', str(ans))
+  st.write('Your answer is: ', str(ans))
 
 def genz():
   saying = r.choice(['Rizz','On God','The Rizzler','That\'s Cap','Betski','Ruski'])
