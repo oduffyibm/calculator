@@ -25,7 +25,7 @@ def calculate(n1,n2,op):
       st.write('Your answer is: ', str(ans))
 
 def genz():
-  saying = r.choose(['Rizz','On God','The Rizzler','That\'s Cap','Betski','Ruski'])
+  saying = r.choice(['Rizz','On God','The Rizzler','That\'s Cap','Betski','Ruski'])
   st.write(saying)
 
 main()
