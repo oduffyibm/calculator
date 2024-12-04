@@ -11,7 +11,7 @@ def main():
   op = st.selectbox('Operator:',['multiply','divide','add','subtract'])
 
   calculate(int(n1),int(n2),op)
-
+  genz()
 
 def calculate(n1,n2,op):
   if op is 'multiply':
@@ -25,7 +25,6 @@ def calculate(n1,n2,op):
 
   st.write('Your answer is: ', str(ans))
 
-  genz()
 
 def genz():
   saying = r.choice(['Rizz','On God','The Rizzler','That\'s Cap','Betski','Ruski'])
