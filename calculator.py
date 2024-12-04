@@ -8,9 +8,11 @@ def main():
   
   n2 = st.text_input('Second number here', value = 0)
   
-  op = st.selectbox('Operator:',['multiply','divide','add','subtract'], on_change = genz())
+  op = st.selectbox('Operator:',['multiply','divide','add','subtract'])
 
   calculate(int(n1),int(n2),op)
+
+  genz()
 
 def calculate(n1,n2,op):
   if op is 'multiply':
